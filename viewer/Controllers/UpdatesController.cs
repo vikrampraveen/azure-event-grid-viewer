@@ -127,7 +127,7 @@ namespace viewer.Controllers
                     details.Id,
                     details.EventType,
                     details.Subject,
-                    DateTime.UtcNow.ToLongTimeString(),
+                    DateTime.UtcNow,
                     e.ToString());
             }
 
